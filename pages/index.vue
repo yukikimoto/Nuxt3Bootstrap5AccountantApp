@@ -1,41 +1,19 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">財務会計アプリ</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">ホーム</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">取引履歴</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">設定</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="container">
-        <h1>財務会計アプリへようこそ！</h1>
-        <p>このアプリは、財務会計の基本的な機能を備えたアプリです。</p>
-        <button class="btn btn-primary">初めての方はこちら</button>
-        <button class="btn btn-primary">登録済みの方はこちら</button>
-
+      <h1>財務会計アプリへようこそ！</h1>
+      <p>このアプリは、財務会計の基本的な機能を備えたアプリです。</p>
+      <button class="btn btn-primary">初めての方はこちら</button>
+      <button class="btn btn-primary">登録済みの方はこちら</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: "Home",
   // ここにVue.jsのコードを追加してください
-}
+};
 </script>
 
 <style scoped>
