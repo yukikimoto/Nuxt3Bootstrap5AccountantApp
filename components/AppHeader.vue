@@ -2,6 +2,14 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <NuxtLink class="navbar-brand" to="/">財務会計アプリ</NuxtLink>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <NuxtLink class="nav-link" to="/auth/login">ログイン</NuxtLink>
+        </li>
+        <li class="nav-item">
+          <NuxtLink class="nav-link" to="/auth/signup">サインアップ</NuxtLink>
+        </li>
+      </ul>
       <button
         class="navbar-toggler"
         type="button"

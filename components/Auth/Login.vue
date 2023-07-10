@@ -24,9 +24,12 @@
               required
             />
           </div>
-          <button type="submit" class="btn btn-primary">ログイン</button>
+          <NuxtLink type="submit" class="btn btn-primary" to="user/">ログイン</NuxtLink>
           <div class="text-center">
             <a href="#" class="forgot-link">パスワードをお忘れですか？</a>
+          </div>
+          <div class="text-center">
+            <p>アカウントをまだお持ちではありませんか？ <NuxtLink to="/auth/signup">サインアップ</NuxtLink></p>
           </div>
         </form>
       </div>
