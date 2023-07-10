@@ -24,7 +24,7 @@
               required
             />
           </div>
-          <NuxtLink type="submit" class="btn btn-primary" to="user/">ログイン</NuxtLink>
+          <NuxtLink type="submit" class="btn btn-primary" to="../user/id">ログイン</NuxtLink>
           <div class="text-center">
             <a href="#" class="forgot-link">パスワードをお忘れですか？</a>
           </div>
