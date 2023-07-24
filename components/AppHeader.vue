@@ -1,7 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <NuxtLink class="navbar-brand" to="/">財務会計アプリ</NuxtLink>
+      <!-- ここにロゴを追加する -->
+      <div class="logo">
+        <NuxtLink class="navbar-brand" to="/">
+          <img src="~/assets/img/logo.png" alt="logo" width="40" height="40"/>
+        </NuxtLink>
+      </div>
+      <!-- <NuxtLink class="navbar-brand" to="/">財務会計アプリ</NuxtLink> -->
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <NuxtLink class="nav-link" to="/auth/login">ログイン</NuxtLink>

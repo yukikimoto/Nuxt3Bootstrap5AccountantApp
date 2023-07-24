@@ -5,5 +5,6 @@ export const useLoginUser = () =>
       id: "012345",
       name: "zaki",
       mail: "nuxt-developer@example.com",
+      password: "zakizaki",
     };
   });
